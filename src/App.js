@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         </a>
       </header> 
       */}
+
+      <Header></Header>
 
 
     </div>
