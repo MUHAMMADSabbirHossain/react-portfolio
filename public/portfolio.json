@@ -1,18 +1,13 @@
 [
     {
-        "id": 0
-    },
-    {
+        "id": 0,
         "first": "Muhammad",
         "full": "Muhammad Bin Ahmad",
-        "last": "Bin Ahmad"
-    },
-    {
+        "last": "Bin Ahmad",
         "age": 23,
-        "gender": "male"
-    },
-    {
+        "gender": "male",
         "email": "info@muhammadbinahmad.com",
-        "phone": "+00000-00000"
+        "phone": "+00000-00000",
+        "homeDescription": " I design and code beautifully simple things and i love what i do. Just simple like that!"
     }
 ]

@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "./User.css";
 import { EnvelopeIcon } from '@heroicons/react/24/solid';
+import { UserDeatilsContext } from '../Home/Home';
 
 const User = () => {
+
+    const [portfolioDB, setPorfolioDB] = useContext(UserDeatilsContext)
+    console.log(portfolioDB[0]);
     return (
         <div>
             <div>
@@ -11,7 +15,7 @@ const User = () => {
                     <img src="..." alt="user_name" />
                 </div>
                 <div>
-                    <h5>Email</h5>
+                    <h5>Email: </h5>
                     <p>Address</p>
                     <p><small>@year. All Rigths Reserved.</small></p>
                 </div>

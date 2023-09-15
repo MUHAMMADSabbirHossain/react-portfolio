@@ -14,11 +14,12 @@ import NotFound from './Components/NotFound/NotFound';
 import User from './Components/User/User';
 import { createContext, useState } from 'react';
 import userEvent from '@testing-library/user-event';
+import usePortfoliojson from './Hook/usePortfoliojson';
 
-export const UserDeatilsContext = createContext("");
 
 function App() {
-  const [portfoliosDB, setPortfoliosDB] = useState([]);
+  // const [portfolioDB, setPorfolioDB] = usePortfoliojson();
+  // console.log(portfolioDB)
 
   return (
     <div className="App">
