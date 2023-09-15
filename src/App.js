@@ -40,16 +40,6 @@ function App() {
       */}
 
       <Header></Header>
-      <section>
-        <div className='md:grid md:grid-cols-4 '>
-          <div>
-            <User></User>
-          </div>
-          <div className='md:col-span-3'>
-            <Home></Home>
-          </div>
-        </div>
-      </section>
 
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
