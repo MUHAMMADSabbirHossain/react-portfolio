@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0
+    },
+    {
+        "first": "Muhammad",
+        "full": "Muhammad Bin Ahmad",
+        "last": "Bin Ahmad"
+    },
+    {
+        "age": 23,
+        "gender": "male"
+    },
+    {
+        "email": "info@muhammadbinahmad.com",
+        "phone": "+00000-00000"
+    }
+]
