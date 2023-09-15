@@ -11,8 +11,13 @@ import Portfolios from './Components/Portfolios/Portfolios';
 import Testmonial from './Components/Testimonial/Testmonial';
 import Contact from './Components/Contact/Contact';
 import NotFound from './Components/NotFound/NotFound';
+import User from './Components/User/User';
+import { createContext, useState } from 'react';
 
+export const UserDeatilsContext = createContext("");
 function App() {
+  const [portfoliosDB, setPortfoliosDB] = useState([]);
+
   return (
     <div className="App">
       {/* 
@@ -33,6 +38,16 @@ function App() {
       */}
 
       <Header></Header>
+      <section>
+        <div className='md:grid md:grid-cols-4 '>
+          <div>
+            <User></User>
+          </div>
+          <div className='md:col-span-3'>
+            <Home></Home>
+          </div>
+        </div>
+      </section>
 
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
