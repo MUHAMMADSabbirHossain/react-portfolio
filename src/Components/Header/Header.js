@@ -4,6 +4,9 @@ const Header = () => {
     return (
         <div>
             Header.
+            <nav>
+
+            </nav>
         </div>
     );
 };
